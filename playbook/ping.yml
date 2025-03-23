@@ -3,5 +3,5 @@
   gather_facts: false
 
   tasks:
-    - name: "This is test_project_B"
-      ping:
+    - name: This is test_project_B
+      ansible.builtin.ping:
